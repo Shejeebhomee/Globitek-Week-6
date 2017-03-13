@@ -551,9 +551,6 @@
     return $errors;
   }
 
-
-  }
-
   // Add a new user to the table
   // Either returns true or an array of errors
   function insert_user($user) {
