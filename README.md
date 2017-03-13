@@ -54,9 +54,9 @@ The following advanced user stories are optional:
   * [ ]  Briefly describe why login still works even after the cost is changed:
 
 * Bonus Objective 4\.
-  * [ ]  Add "Previous password" to "public/staff/users/edit.php"
-  * [ ]  Validate the previous password before allowing the password to be updated.
-  * [ ]  Require previous password only if new password is being updated (if also completing Bonus Objective 2).
+  * [x]  Add "Previous password" to "public/staff/users/edit.php"
+  * [x]  Validate the previous password before allowing the password to be updated.
+  * [x]  Require previous password only if new password is being updated (if also completing Bonus Objective 2).
 
 * Advanced Objective 1\.
   * [x]  Implement `password_hash()` on your own as `my_password_hash()`.
@@ -64,7 +64,7 @@ The following advanced user stories are optional:
 
 * Advanced Objective 2\.
   * [x]  Write `generate_strong_password()`
-  * []  Add a suggestion for a 12-character strong password to the new and edit user pages.
+  * [x]  Add a suggestion for a 12-character strong password to the new and edit user pages.
 
 ## Video Walkthrough
 
